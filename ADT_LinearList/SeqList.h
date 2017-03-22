@@ -1,7 +1,9 @@
 #pragma once
 #include <iostream>
+#include "LinearList.h"
 template<class T>
 class SeqList
+	:public LinearList<T>
 {
 public:
 	SeqList(int );
