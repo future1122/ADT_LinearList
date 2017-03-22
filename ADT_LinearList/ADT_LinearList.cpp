@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "SeqList.h"
 #include "SingleList.h"
+#include "Polynominal.h"
 int main()
 {
 	SeqList<int> listA(20);
@@ -14,8 +15,16 @@ int main()
 	for (int i = 0; i < 5; ++i) {
 		listB.Insert(i - 1, i);
 	}
-	listA.Output(std::cout);
-	listB.Output(std::cout);
+	listA.Output(cout);
+	listB.Output(cout);
+	cout << "¶àÏîÊ½" << endl;
+	Polynominal p, q;
+	cin >> p;
+	cout << p;
+	cin >> q;
+	cout << q;
+	p = p + q;
+	cout << p;
     return 0;
 }
 
