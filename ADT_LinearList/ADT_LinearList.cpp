@@ -3,9 +3,11 @@
 
 #include "stdafx.h"
 #include "SeqList.h"
+#include "SingleList.h"
 int main()
 {
-	SeqList<int> A(20);
+	SeqList<int> listA(20);
+	SingleList<int> listB;
     return 0;
 }
 
